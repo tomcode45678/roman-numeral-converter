@@ -65,12 +65,12 @@ var romanNumeralConverter = function (integer, settings) {
 
     function addDefaultSymbols (integer, settings, setSymbol) {
         var startSymbol = '', endSymbol = '', cachedSetSymbol = setSymbol;
-        for (var i = 0; i < integer; i++) {
-            if (i < settings.defaults.lessThan) {
+        for (var ii = 0; ii < integer; ii++) {
+            if (ii < settings.defaults.lessThan) {
                 startSymbol += settings.defaults.value;
                 setSymbol = '';
             }
-            if (i >= 5) {
+            if (ii >= 5) {
                 startSymbol = '';
                 endSymbol += settings.defaults.value;
                 setSymbol = cachedSetSymbol;
@@ -78,7 +78,7 @@ var romanNumeralConverter = function (integer, settings) {
         }
         return {startSymbol: startSymbol, setSymbol: setSymbol, endSymbol: endSymbol};
     }
-}
+};
 
 try {
     return console.log(romanNumeralConverter(CONVERT, SETTINGS));
