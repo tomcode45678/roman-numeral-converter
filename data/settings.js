@@ -81,15 +81,9 @@ module.exports = [
     {
         rules: [
             {
-                value: 4,
-                startSymbol: 'I',
-                setSymbol: 'V',
-                endSymbol: ''
-            },
-            {
                 value: 5,
                 startSymbol: '',
-                setSymbol: 'M',
+                setSymbol: 'V',
                 endSymbol: ''
             },
             {
