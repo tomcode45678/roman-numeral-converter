@@ -1,0 +1,29 @@
+{
+  "name": "roman-numeral-converter",
+  "version": "0.0.1",
+  "description": "Convert any number to a Roman Numeral",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "jshint . -c .jshintrc"
+  },
+  "keywords": [
+    "Roman",
+    "Numeral",
+    "Converter"
+  ],
+  "author": "Thomas Stapleton (github.com/tomsta93)",
+  "license": "MIT",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomsta93/roman-numeral-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomsta93/roman-numeral-converter/issues"
+  },
+  "bin": {
+    "fibonacci-generator" : "index.js"
+  },
+  "homepage": "https://github.com/tomsta93/roman-numeral-converter#readme"
+}
