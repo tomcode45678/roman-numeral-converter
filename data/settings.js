@@ -1,3 +1,4 @@
+/*global module:true, exports:true */
 module.exports = [
     {
         rules: [

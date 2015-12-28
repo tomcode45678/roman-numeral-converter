@@ -1,7 +1,7 @@
 {
   "name": "roman-numeral-converter",
-  "version": "0.0.1",
-  "description": "Convert any number to a Roman Numeral",
+  "version": "0.0.2",
+  "description": "Convert numbers to a Roman Numerals",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,7 +23,7 @@
     "url": "https://github.com/tomsta93/roman-numeral-converter/issues"
   },
   "bin": {
-    "fibonacci-generator" : "index.js"
+    "roman-numeral-converter": "index.js"
   },
   "homepage": "https://github.com/tomsta93/roman-numeral-converter#readme"
 }
