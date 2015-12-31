@@ -1,6 +1,6 @@
 {
   "name": "roman-numeral-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert numbers to a Roman Numerals",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,13 @@
     "lint": "jshint . -c .jshintrc"
   },
   "keywords": [
-    "Roman",
-    "Numeral",
-    "Converter"
+    "roman",
+    "numeral",
+    "numerals",
+    "converter",
+    "command line tool",
+    "terminal",
+    "tool"
   ],
   "author": "Thomas Stapleton (github.com/tomsta93)",
   "license": "MIT",
