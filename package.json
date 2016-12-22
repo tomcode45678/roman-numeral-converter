@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "jshint . -c .jshintrc"
+    "lint": "jshint . -c .jshintrc",
+    "build": "./node_modules/.bin/babel src -d dist"
   },
   "keywords": [
     "roman",
@@ -29,5 +30,12 @@
   "bin": {
     "roman-numeral-converter": "index.js"
   },
-  "homepage": "https://github.com/tomsta93/roman-numeral-converter#readme"
+  "homepage": "https://github.com/tomsta93/roman-numeral-converter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2016": "^6.16.0",
+    "babel-preset-es2017": "^6.16.0",
+    "babel-preset-stage-3": "^6.17.0"
+  }
 }
