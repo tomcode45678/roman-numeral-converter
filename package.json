@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "jshint . -c .jshintrc",
+    "lint": "./node_modules/.bin/jshint src -c .jshintrc",
     "build": "./node_modules/.bin/babel src -d dist"
   },
   "keywords": [
@@ -36,6 +36,7 @@
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-es2016": "^6.16.0",
     "babel-preset-es2017": "^6.16.0",
-    "babel-preset-stage-3": "^6.17.0"
+    "babel-preset-stage-3": "^6.17.0",
+    "jshint": "^2.9.4"
   }
 }

@@ -1,6 +1,4 @@
-/* global module:true */
-
-const romanNumeralEquation = [
+const config = [
   {
     rules: [
       {
@@ -101,4 +99,4 @@ const romanNumeralEquation = [
   }
 ];
 
-export { romanNumeralEquation as default };
+export { config as default };
